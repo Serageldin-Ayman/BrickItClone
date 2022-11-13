@@ -1,6 +1,8 @@
 #pragma once
 #include"SFML/Graphics.hpp"
-class Player
+#include"Rocks.h"
+#include"PowerUps.h"
+class Player : public sf::Sprite
 {
 	//Attributes
 private:
@@ -13,15 +15,17 @@ private:
 	//sf::RectangleShape body;
 	int flag;
 	//sf::View cameraView;
+	//FallenObject rock;
 
 public:
 	Player(sf::Vector2f position);
 	//void setTexture(sf::Texture& playerTexture);
-	void Update(float deltaTime, sf::View& cameraView);
-	int RewardOrPunish();
+	void Update(float deltaTime, sf::View& cameraView, Rocks* rock, PowerUps* coin, int arrSize);
+	//void Update(float deltaTime, sf::View& cameraView, FallenObject& coin);
+	//int RewardOrPunish();
 	void Draw(sf::RenderWindow& window);
+	void screenCollision();
 private:
 	sf::FloatRect GetPlayerSize();
 
 };
-
