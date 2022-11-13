@@ -1,0 +1,15 @@
+﻿  Sfml project.cpp
+d:\iti game dev\brick it\brick it\brick it\sfml project.cpp(109): warning C4065: switch statement contains 'default' but no 'case' labels
+d:\iti game dev\brick it\brick it\brick it\sfml project.cpp(101): warning C4102: 'case1': unreferenced label
+d:\iti game dev\brick it\brick it\brick it\sfml project.cpp(144): warning C4065: switch statement contains 'default' but no 'case' labels
+d:\iti game dev\brick it\brick it\brick it\sfml project.cpp(136): warning C4102: 'case1': unreferenced label
+d:\iti game dev\brick it\brick it\brick it\sfml project.cpp(180): warning C4018: '<': signed/unsigned mismatch
+d:\iti game dev\brick it\brick it\brick it\sfml project.cpp(193): warning C4018: '<': signed/unsigned mismatch
+d:\iti game dev\brick it\brick it\brick it\sfml project.cpp(218): warning C4018: '<': signed/unsigned mismatch
+d:\iti game dev\brick it\brick it\brick it\sfml project.cpp(231): warning C4018: '<': signed/unsigned mismatch
+d:\iti game dev\brick it\brick it\brick it\sfml project.cpp(284): error C3312: no callable 'begin' function found for type 'sf::Texture'
+d:\iti game dev\brick it\brick it\brick it\sfml project.cpp(284): error C3312: no callable 'end' function found for type 'sf::Texture'
+d:\iti game dev\brick it\brick it\brick it\sfml project.cpp(285): error C2065: 'e': undeclared identifier
+d:\iti game dev\brick it\brick it\brick it\sfml project.cpp(292): error C3312: no callable 'begin' function found for type 'sf::Texture'
+d:\iti game dev\brick it\brick it\brick it\sfml project.cpp(292): error C3312: no callable 'end' function found for type 'sf::Texture'
+d:\iti game dev\brick it\brick it\brick it\sfml project.cpp(293): error C2065: 'e': undeclared identifier
