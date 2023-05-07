@@ -1,2 +1,2 @@
 # BrickItClone
-This is where we will collaborate to make the gameplay
+A game developed in SFML engine @ITI mini jam
